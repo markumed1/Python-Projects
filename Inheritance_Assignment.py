@@ -12,6 +12,7 @@ class Person:
 x = Person("Mos", "Def")
 x.printname()
 
+#Child classes that inherit their parent class
 
 class Student(Person):
     pass
