@@ -14,7 +14,7 @@ with conn:
     cur.execute("CREATE TABLE IF NOT EXISTS tbl_files( \
         ID INTEGER PRIMARY KEY AUTOINCREMENT, \
         col_docx TEXT, \
-        col_text TEXT, \
+        col_txt TEXT, \
         col_pdf TEXT, \
         col_png TEXT, \
         col_mpg TEXT, \
@@ -22,8 +22,6 @@ with conn:
         )")
     conn.commit()
 conn.close()
-
-
 
 conn = sqlite3.connect('test.db')
 
@@ -38,7 +36,7 @@ for x in files_tuple:
             cur = conn.cursor()
         # value for each row will be one name of out the tuple (x,)
         # will denote a one element tuple for each name ending with .txt
-            cur.execute("INSERT INTO tbl_files (col_text) VALUES (?)", (x,))
+            cur.execute("INSERT INTO tbl_files (col_txt) VALUES (?)", (x,))
             print(x)
 
 conn.close()
