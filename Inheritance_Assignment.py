@@ -1,27 +1,27 @@
-#Create two classes
-class User:
-    #Define the attributes of the class
-    name = "Willie Nelson"
-    email = "wnelson@gmail.com"
-    password = "1234abcd"
-    account = 0
+#Create a parent class
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
 
-#Child class with their own attributes
-class Musician(User):
-    concert_pay = 100,00.00
-    Genre = 'Country'
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+#Use the Person class to create an object, and then execute the printname method:
+
+x = Person("Mos", "Def")
+x.printname()
 
 
+class Student(Person):
+    pass
 
-class User:
-    #Define the attributes of the class
-    name = "Missy Elliot"
-    email = "MissyEn@gmail.com"
-    password = "1234abcdefg"
-    account = 0
+x = Student("Mike", "Thompson")
+x.printname()
 
-#Child class with their own attributes
-class Musician(User):
-    concert_pay = 200,000.00
-    Genre: 'Hip-Hop'
-    
+
+class Teacher(Person):
+    pass
+
+x = Teacher("Tom", "Nalen")
+x.printname()
