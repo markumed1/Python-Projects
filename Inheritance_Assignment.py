@@ -12,16 +12,21 @@ class Person:
 x = Person("Mos", "Def")
 x.printname()
 
+#Child classes that inherit their parent class
 
 class Student(Person):
-    pass
+    name = "Mike Thompson"
+    grade = "Freshman"
+    gpa = 3.0
 
 x = Student("Mike", "Thompson")
 x.printname()
 
 
 class Teacher(Person):
-    pass
+    name = "Tom Nalen"
+    subject = "Science"
+    Education = "University of Miami"
 
 x = Teacher("Tom", "Nalen")
 x.printname()
