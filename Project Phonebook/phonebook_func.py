@@ -1,3 +1,4 @@
+from tkinter import messagebox
 import os
 from tkinter import *
 import tkinter as tk
@@ -181,7 +182,7 @@ def onRefresh(self):
         count = cursor.fetchone()[0]
         i = 0
         while i < count:
-            cursor.execute("""SELECT col.fullname FROM tbl_phonebook""")
+            cursor.execute("""SELECT col_fullname FROM tbl_phonebook""")
             varList = cursor.fetchall()[1]
             for item in varList:
                 self.lstList1.insert(0,str(item))
