@@ -1,10 +1,27 @@
-# Import tkinter module
+# write html
+f = open("write-html.py", "w")
+
+#import module
+import webbrowser
 import tkinter
 
 # Create GUI window
 window = tkinter.Tk()
 window.title("Welcome fellow guests")
 window.geometry("400x200")
+
+# "w" Write - will overwrite any existing content
+f = open('staytuned.html', 'w')
+
+# enter message with """ """
+message = """<html>
+  <body>
+   <h1>
+      Stay tuned for our amazing summer sale!
+    </h1>
+  </body>
+</html>"""
+
 
 # creating text widget.
 sample_text = tkinter.Entry(window)
@@ -23,7 +40,12 @@ def set_text_by_button():
 # is passed as a command
 set_up_button = tkinter.Button(window, height=1, width=10, text="Enter", 
                     command=set_text_by_button)
-  
-set_up_button.pack()
-  
-window.mainloop()
+
+
+if __name__ == "__main__":
+    set_up_button.pack()
+    window.mainloop()
+    f.write(message)
+    f.close()
+
+webbrowser.open_new_tab('staytuned.html')

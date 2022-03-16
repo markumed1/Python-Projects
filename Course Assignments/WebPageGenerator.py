@@ -1,9 +1,13 @@
+# write html
 f = open("write-html.py", "w")
 
+#import module
 import webbrowser
 
+# "w" Write - will overwrite any existing content
 f = open('staytuned.html', 'w')
 
+# enter message with """ """
 message = """<html>
   <body>
    <h1>
