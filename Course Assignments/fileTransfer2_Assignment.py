@@ -1,27 +1,20 @@
-# import modules to organize files of a directory
-import shutil
-from datetime import date
+# Python program to explain os.path.getmtime() method
+
+# importing os and time module
 import os
-import sys
+import time
 
-# When there is need, just change the directory
-os.chdir(sys.path[0])
+# Path
+path = '/Users/Marku/OneDrive/Desktop/GitHub/Python-Projects/Course Assignments/File Transfer Assignment/HomeA/'
 
-# Function for performing the
-# backup of the files and folders
-def take_backup(src_file_name, 
-                dst_file_name=None,
-                src_dir='', 
-                dst_dir=''):
-    try:
-
-         # Extract the today's date
-        today = date.today()  
-        date_format = today.strftime("%d_%b_%Y_")
-
-        # Make the source directory,
-        # where we wanna backup our files
-        src_dir = 'C:\Users\Marku\OneDrive\Desktop\GitHub\Python-Projects\Course Assignments\File Transfer Assignment\HomeFiles'
-    
+# Get the time of last
+# modification of the specified
+# path since the epoch
+modification_time = os.path.getmtime(path)
 
 
+# convert the time in
+# seconds since epoch
+# to local time
+local_time = time.ctime(modification_time)
+print("Last modification time(Local time):", local_time)
