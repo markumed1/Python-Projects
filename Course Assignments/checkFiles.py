@@ -1,7 +1,7 @@
 # Importing tkinter module
 from tkinter import *
 
-# Createing a tkinter window
+# Creating a tkinter window
 root = Tk()
 
 # Initializing tkinter window
