@@ -69,7 +69,7 @@ def SourceBrowse():
 	# initialdir argument is optional Since multiple
 	# files may be selected, converting the selection
 	# to list using list()
-	root.files_list = list(filedialog.askopenfilenames(initialdir ="C:/Users/AKASH / Desktop / Lockdown Certificate / Geek For Geek"))
+	root.files_list = list(filedialog.askopenfilenames(initialdir ="C:/Users/Marku/OneDrive/Desktop/"))
 	
 	# Displaying the selected files in the root.sourceText
 	# Entry using root.sourceText.insert()
@@ -81,7 +81,7 @@ def DestinationBrowse():
 	# which files are to be copied using the
 	# filedialog.askopendirectory() method.
 	# Setting initialdir argument is optional
-	destinationdirectory = filedialog.askdirectory(initialdir ="C:/Users/AKASH / Desktop / Lockdown Certificate / Geek For Geek")
+	destinationdirectory = filedialog.askdirectory(initialdir ="C:/Users/Marku/OneDrive/Desktop/Copies of Main")
 
 	# Displaying the selected directory in the
 	# root.destinationText Entry using
