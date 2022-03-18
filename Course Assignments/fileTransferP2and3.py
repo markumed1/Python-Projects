@@ -6,14 +6,6 @@ import tkinter as tk
 from tkinter import *
 from tkinter import messagebox
 
-
-
-
-# Importing necessary packages
-import shutil
-import tkinter as tk
-from tkinter import *
-from tkinter import messagebox, filedialog
 	
 
 # Defining CreateWidgets() function to
