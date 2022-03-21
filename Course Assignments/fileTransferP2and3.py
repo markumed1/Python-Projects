@@ -4,6 +4,8 @@ import time
 import sys
 import shutil
 import datetime
+from datetime import date
+from datetime import timedelta
 import tkinter as tk
 from tkinter import *
 from tkinter import messagebox, filedialog
@@ -99,6 +101,27 @@ def CopyFile():
 		print(root.sourceText.get())
 		sourceFile = root.sourceText.get() + "/" + f
 		print(sourceFile)
+##              assign current date/time to a variable as Today
+		current_time = datetime.datetime.now()
+		print("Current date and time is : ", end = "")
+		print(current_time)
+		
+##		assign Yesterday = today - 24 hours
+		today = date.today()
+		yesterday = today - timedelta(days = 1)
+		print(today)
+		print(yesterday)
+
+		
+##		get the modification date of the sourceFile (not path)
+		modification_time = os.path.getmtime(sourceFile)
+		print("Last modification time since the epoch:", modification_time)
+		
+##		if the modification date of sourceFile is greater than Yesterday
+##		then move the file else do nothing
+		local_time = time.ctime(modification_time)
+		print("Last modification time(Local time):", local_time)
+
 		shutil.copy(sourceFile, destination_location)
                 
 	messagebox.showinfo("SUCCESSFUL")
@@ -106,38 +129,6 @@ def CopyFile():
 
 	
 
-
-# set a variable to current date and time
-now = datetime.datetime.now()
-print("Current date and time: ")
-print(now.strftime("%Y-%m-%d %H:%M:%S"))
-
-
-# Path
-path = 'C:/Users/Marku/OneDrive/Desktop/FolderA'
- 
-# Get the time of last
-# modification of the specified
-# path since the epoch
-try:
-    modification_time = os.path.getmtime(path)
-    print("Last modification time since the epoch:", modification_time)
- 
-except OSError:
-    print("Path '%s' does not exists or is inaccessible" %path)
-    sys.exit()
- 
-# convert the time in
-# seconds since epoch
-# to local time
-local_time = time.ctime(modification_time)
-print("Last modification time(Local time):", local_time)
- 
- 
-# above code will print
-# path does not exists or is inaccessible'
-# if the specified path does not
-# exists or is inaccessible
 
 
 
