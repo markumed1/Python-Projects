@@ -1,10 +1,13 @@
 # Import modules.
 import os
 import time
+import sys
 import shutil
+import datetime
 import tkinter as tk
 from tkinter import *
 from tkinter import messagebox, filedialog
+
 
 	
 
@@ -48,24 +51,18 @@ def CreateWidgets():
 	copyButton.grid(row = 3, column = 1,
 					pady = 5, padx = 5)
 	
-	moveButton = Button(root, text ="Move File",
-						command = MoveFile, width = 15)
-	moveButton.grid(row = 3, column = 2,
-					pady = 5, padx = 5)
 
 def SourceBrowse():
-	
 	# Opening the file-dialog directory prompting
 	# the user to select files to copy using
 	# filedialog.askopenfilenames() method. Setting
 	# initialdir argument is optional Since multiple
 	# files may be selected, converting the selection
 	# to list using list()
-	root.files_list = list(filedialog.askopenfilenames(initialdir ="C:/Users/Marku/OneDrive/Desktop/"))
+	sourcedirectory = filedialog.askdirectory()
 	
-	# Displaying the selected files in the root.sourceText
-	# Entry using root.sourceText.insert()
-	root.sourceText.insert('1', root.files_list)
+	# Displaying the selected file path in the entry widget.
+	root.sourceText.insert('1', sourcedirectory)
 	
 def DestinationBrowse():
 	# Opening the file-dialog directory prompting
@@ -73,7 +70,7 @@ def DestinationBrowse():
 	# which files are to be copied using the
 	# filedialog.askopendirectory() method.
 	# Setting initialdir argument is optional
-	destinationdirectory = filedialog.askdirectory(initialdir ="C:/Users/Marku/OneDrive/Desktop/Copies of Main")
+	destinationdirectory = filedialog.askdirectory()
 
 	# Displaying the selected directory in the
 	# root.destinationText Entry using
@@ -84,7 +81,7 @@ def CopyFile():
 	# Retrieving the source file selected by the
 	# user in the SourceBrowse() and storing it in a
 	# variable named files_list
-	files_list = root.files_list
+	files = os.listdir(root.sourceText.get())
 
 	# Retrieving the destination location from the
 	# textvariable using destinationLocation.get() and
@@ -92,38 +89,59 @@ def CopyFile():
 	destination_location = destinationLocation.get()
 
 	# Looping through the files present in the list
-	for f in files_list:
+	for f in files:
 		
 		# Copying the file to the destination using
 		# the copy() of shutil module copy take the
 		# source file and the destination folder as
 		# the arguments
-		shutil.copy(f, destination_location)
-
+		print(f, destination_location)
+		print(root.sourceText.get())
+		sourceFile = root.sourceText.get() + "/" + f
+		print(sourceFile)
+		shutil.copy(sourceFile, destination_location)
+                
 	messagebox.showinfo("SUCCESSFUL")
+
+
 	
-def MoveFile():
-	
-	# Retrieving the source file selected by the
-	# user in the SourceBrowse() and storing it in a
-	# variable named files_list'''
-	files_list = root.files_list
 
-	# Retrieving the destination location from the
-	# textvariable using destinationLocation.get() and
-	# storing in destination_location
-	destination_location = destinationLocation.get()
 
-	# Looping through the files present in the list
-	for f in files_list:
-		
-		# Moving the file to the destination using
-		# the move() of shutil module copy take the
-		# source file and the destination folder as
-		# the arguments
-		shutil.move(f, destination_location)
+# set a variable to current date and time
+now = datetime.datetime.now()
+print("Current date and time: ")
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
 
-	messagebox.showinfo("SUCCESSFUL")
+
+# Path
+path = 'C:/Users/Marku/OneDrive/Desktop/FolderA'
+ 
+# Get the time of last
+# modification of the specified
+# path since the epoch
+try:
+    modification_time = os.path.getmtime(path)
+    print("Last modification time since the epoch:", modification_time)
+ 
+except OSError:
+    print("Path '%s' does not exists or is inaccessible" %path)
+    sys.exit()
+ 
+# convert the time in
+# seconds since epoch
+# to local time
+local_time = time.ctime(modification_time)
+print("Last modification time(Local time):", local_time)
+ 
+ 
+# above code will print
+# path does not exists or is inaccessible'
+# if the specified path does not
+# exists or is inaccessible
+
+
+
+
 
 # Creating object of tk class
 root = tk.Tk()
@@ -145,29 +163,16 @@ CreateWidgets()
 root.mainloop()
 
 
-# The Path
-path = '/Users/Marku/OneDrive/Desktop/'
-
-
-# Get the time of last modification of the specified path
-try:
-    modification_time = os.path.getmtime(path)
-    print("Last modification time since the epoch:", modification_time)
- 
-except OSError:
-    print("Path '%s' does not exists or is inaccessible" %path)
-    sys.exit()
- 
-# convert the time in
-# seconds since epoch
-# to local time
-local_time = time.ctime(modification_time)
-print("Last modification time(Local time):", local_time)
 
 
 
 
 
+
+
+
+if __name__ == "__main__":
+    window.mainloop()
 
     
 
