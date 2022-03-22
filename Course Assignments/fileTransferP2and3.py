@@ -108,9 +108,9 @@ def CopyFile():
 		
 ##		assign Yesterday = today - 24 hours
 		today = date.today()
+		print("Today's date is: ", today)
 		yesterday = today - timedelta(days = 1)
-		print(today)
-		print(yesterday)
+		print("Yesterday's date was: ", yesterday)
 
 		
 ##		get the modification date of the sourceFile (not path)
