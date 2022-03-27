@@ -18,10 +18,10 @@ class Person(models.Model):
 
     objects = models.Manager()
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(args, kwargs)
-        self.person = None
+    # def __init__(self, *args, **kwargs):
+    #     super().__init__(args, kwargs)
+    #     self.person = None
 
     def __str__(self):
-        return self.person
+        return self.First_name
 
