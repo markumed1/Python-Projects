@@ -4,6 +4,13 @@
 
 {% block header %}Welcome to My World!{% endblock %}
 
+{% for person in profiles %}
+    <ul>
+        <li>{{ persons.name }}</li>
+    </ul>
+
+{% endfor %}
+
 {% block content %}
 
 
