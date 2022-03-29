@@ -2,7 +2,7 @@
 
 {% block title %}My World{% endblock %}
 
-{% block header %}Welcome to My World!{% endblock %}
+{% block header %}Contact List:{% endblock %}
 
 {% block content %}
 
@@ -13,7 +13,7 @@
             <label for="menu_id">Select name from the list to edit:</label>
             <select id="menu_id" name="menu" onChange="top.location.href=this.options[this.selectedIndex].value;">
             {% for person in profiles %}
-                <option value="../{{ person.pk }}/details/">{{ p.name }}<option>
+                <option value="../{{ person.pk }}/details/">{{ person }}<option>
             {% endfor %}
             </select>
             <div class="fromBtn_container">

@@ -2,7 +2,7 @@
 
 {% block title %}Royal Hotels{% endblock %}
 
-{% block header %}Welcome to the Royal Hotels!{% endblock %}
+{% block header %}Product Details:{% endblock %}
 
 {% block content %}
 
@@ -14,7 +14,7 @@
             <label for="menu_id">Select a product from the list to edit:</label>
             <select id="menu_id" name="menu" onChange="top.location.href=this.options[this.selectedIndex].value;">
             {% for product in products %}
-                <option value="../{{ product.pk }}/details/">{{ p.name }}<option>
+                <option value="../{{ product.pk }}/details/">{{ product.name }}<option>
             {% endfor %}
             </select>
             <div class="fromBtn_container">

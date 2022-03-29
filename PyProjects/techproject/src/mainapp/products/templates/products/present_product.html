@@ -15,10 +15,11 @@
             {{ form.as_table }}
         </table>
         <div class="frmBtn_container">
-            <ul>
-                <li><a href="../{{ form.pk }}delete/">DELETE</a></li>
-                <li><a href="{% url 'admin_console' %}">CANCEL</a></li>
-            </ul>
+            <input type="submit">
+            <div class="frmBtn_container">
+                <a href="../{{ form.pk }}delete/"><button class="btn">DELETE</button></a>
+                <a href="{% url 'admin_console' %}"><button class="btn">CANCEL</button></a>
+            </div>
         </div>
     </form>
 </div>
