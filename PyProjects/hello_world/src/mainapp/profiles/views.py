@@ -10,7 +10,7 @@ def home(request):
 def details(request, pk):
     pk = int(pk)
     item = get_object_or_404(Person, pk=pk)
-    form = PersonForm(data=request.POST or None, instance=item)
+    form = ContactForm(data=request.POST or None, instance=item)
     if request.method == 'POST':
         if form.is_valid():
             form2 = form.save(commit=False)
