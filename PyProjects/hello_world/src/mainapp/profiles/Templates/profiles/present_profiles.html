@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}My World{% endblock %}
+
+{% block header %}Contact List:{% endblock %}
+
+{% block content %}
+
+<div class="admin_panel">
+    <form name="contactForm" method="POST" action="../details/">
+        <table>
+            {% csrf_token %}
+            {{ form.non_field_errors }}
+            {{ form.as_table }}
+        </table>
+        <div class="frmBtn_container"
+             <ul>
+                 <li><a href="../{{ form.pk }}delete/">DELETE</a></li>
+                 <li><a href="{& url 'admin_console' %}">CANCEL</a></li>
+             </ul>
+        </div>
+    </form>
+</div>
+
+
+
+{% endblock %}
