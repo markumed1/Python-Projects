@@ -1,13 +1,11 @@
-from random import choices
-
 from django.db import models
 
-
-TITLE_CHOICES = [
+TITLE_CHOICES = {
     ('MR', 'Mr.'),
     ('MRS', 'Mrs.'),
-    ('MS', 'Ms.')
-]
+    ('MS', 'Ms.'),
+}
+
 
 class Person(models.Model):
     Title = models.CharField(max_length=10, choices=TITLE_CHOICES)
@@ -18,10 +16,5 @@ class Person(models.Model):
 
     objects = models.Manager()
 
-    # def __init__(self, *args, **kwargs):
-    #     super().__init__(args, kwargs)
-    #     self.person = None
-
     def __str__(self):
         return self.First_name
-

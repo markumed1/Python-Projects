@@ -4,14 +4,25 @@
 
 {% block header %}Welcome to My World!{% endblock %}
 
-{% for person in profiles %}
-    <ul>
-        <li>{{ persons.name }}</li>
-    </ul>
-
-{% endfor %}
-
 {% block content %}
+
+<div class="admin_panel">
+    <form name="contactForm" method="POST" action="">
+        <div class="formObject">
+            {% csrf_token %}
+            <label for="menu_id">Select name from the list to edit:</label>
+            <select id="menu_id" name="menu" onChange="top.location.href=this.options[this.selectedIndex].value;">
+            {% for person in profiles %}
+                <option value="../{{ person.pk }}/details/">{{ p.name }}<option>
+            {% endfor %}
+            </select>
+            <div class="fromBtn_container">
+                <a href=""><button type="button" class="btn">Enter New Name</button></a>
+                <a href="{% url 'home' %}"><button type="button" class="btn">Logout of Profile</button></a>
+            </div>
+        </div>
+    </form>
+</div>
 
 
 
