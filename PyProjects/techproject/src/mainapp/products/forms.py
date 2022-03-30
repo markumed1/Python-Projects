@@ -6,5 +6,8 @@ class ProductForm(ModelForm):
         model = Product
         fields = '__all__'
 
+    def delete(self):
+        pass
+
 
         
