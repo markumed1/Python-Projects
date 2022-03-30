@@ -19,4 +19,4 @@ def details(request, pk):
         else:
             print(form.errors)
     else:
-        return render(request, 'person/present_profiles.html', {'form': form})
+        return render(request, "profiles/present_profiles.html", {'form': form})

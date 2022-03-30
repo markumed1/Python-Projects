@@ -8,6 +8,7 @@ def admin_console(request):
     products = Product.objects.all()
     return render(request, 'products/products_page.html', {'products': products})
 
+
 def details(request, pk):
     pk = int(pk)
     item = get_object_or_404(Product, pk=pk)
@@ -21,3 +22,23 @@ def details(request, pk):
             print(form.errors)
     else:
         return render(request, 'products/present_product.html', {'form': form})
+
+
+def delete(request, pk):
+    pk = int(pk)
+    item = get_object_or_404(Product, pk=pk)
+    if request.method == 'POST':
+        item.delete()
+        return redirect('admin_consoler')
+    context = {"item": item,}
+    return render(request, "products/confirmDelete.html", context)
+
+def confirmed(request):
+    if request.method == 'POST':
+        # creates instance and binds data to it
+        form = ProductForm(request.POST or NONE)
+        if form.is_valid():
+            form.delete()
+            return redirect('admin_console')
+    else:
+        return redirect('admin_console')
