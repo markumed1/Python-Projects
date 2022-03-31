@@ -13,11 +13,11 @@
             <label for="menu_id">Select name from the list to edit:</label>
             <select id="menu_id" name="menu" onChange="top.location.href=this.options[this.selectedIndex].value;">
             {% for person in profiles %}
-                <option value="../{{ person.pk }}/details/">{{ person }}<option>
+                <option value="../{{ person.pk }}/details/">{{ person }}</option>
             {% endfor %}
             </select>
             <div class="fromBtn_container">
-                <a href=""><button type="button" class="btn">Enter New Name</button></a>
+                <a href="{% url 'createProfile' %}"><button type="button" class="btn">Enter New Name</button></a>
                 <a href="{% url 'home' %}"><button type="button" class="btn">Logout of Profile</button></a>
             </div>
         </div>

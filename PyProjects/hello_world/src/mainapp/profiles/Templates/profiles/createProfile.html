@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}My World{% endblock %}
+
+{% block header %}Create Profile: {% endblock %}
+
+{% block content %}
+
+<div class="admin_panel">
+        <form method="POST" action="{% url 'createProfile' %}" >
+            <div class="frmObject_container">
+                <!-- Cross Site Request Forgery (csrf_token) protection -->
+                {% csrf_token %}
+                {{ form.non_field_errors }}
+                {{ form.as_p }}
+            </div>
+            <div class="frmBtn_container">
+                <input type="submit" class="btn" value="Add Profile" name="Save_Name">
+                <a href="{% url 'home' %}"><button type="button" class="btn" value="Cancel">Cancel</button></a>
+            </div>
+        </form>
+    </div>
+
+
+
+
+{% endblock %}
