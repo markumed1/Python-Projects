@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5fdd3c4e-0085-4bd8-a576-a2265f523975" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Classes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Classes/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/classApp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/classApp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/classApp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/classApp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/classApp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/classApp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/classApp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/activate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/activate.fish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/activate.nu" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/activate.nu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/pip-3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/pip-3.10.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/pip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/pip3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/pip3.10.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/pip3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/wheel-3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/wheel-3.10.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/wheel.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/wheel.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/wheel3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/wheel3.10.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/wheel3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/wheel3.exe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27DYormxzp816s1s3lIfMZc4EVk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fdd3c4e-0085-4bd8-a576-a2265f523975" name="Changes" comment="" />
+      <created>1648856302642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648856302642</updated>
+    </task>
+    <servers />
+  </component>
+</project>

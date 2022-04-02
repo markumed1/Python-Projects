@@ -1,6 +1,6 @@
 @echo off
 
-set "VIRTUAL_ENV=C:\PyProjects\techproject"
+set "VIRTUAL_ENV=C:\Users\Marku\OneDrive\Desktop\GitHub\Python-Projects\techproject"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
