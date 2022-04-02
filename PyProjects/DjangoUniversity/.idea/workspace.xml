@@ -5,35 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fdd3c4e-0085-4bd8-a576-a2265f523975" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Classes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Classes/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/classApp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/classApp/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/classApp/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/classApp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/classApp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/classApp/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/classApp/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/activate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/activate.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/activate.fish" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/activate.nu" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/activate.nu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/pip-3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/pip-3.10.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/pip.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/pip3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/pip3.10.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/pip3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/wheel-3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/wheel-3.10.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/wheel.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/wheel.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/wheel3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/wheel3.10.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../techproject/Scripts/wheel3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../techproject/Scripts/wheel3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/classApp/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -50,6 +42,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marku\OneDrive\Desktop\GitHub\Python-Projects\PyProjects\DjangoUniversity\Classes" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,5 +59,16 @@
       <updated>1648856302642</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
