@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da3d3e33-9a07-47e9-a6b3-0e293ace2ee2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Django_Checkbook.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/static/CSS/CheckbookApp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/static/images/CheckCalligraphyPen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/templates/checkbook/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/templates/checkbook/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/templates/checkbook/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkbook/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Checkbook/Django_Checkbook/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Checkbook/Django_Checkbook/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Checkbook/Django_Checkbook/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Checkbook/Django_Checkbook/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Checkbook/Django_Checkbook/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Checkbook/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Checkbook/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_Checkbook/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoUniversity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoUniversity/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27EJw0z7xLQgXsw2H85TRC8x4k8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marku\OneDrive\Desktop\GitHub\Python-Projects\PyProjects\Django_Checkbook\Checkbook\static\images" />
+      <recent name="C:\Users\Marku\OneDrive\Desktop\GitHub\Python-Projects\PyProjects\Django_Checkbook\Checkbook" />
+      <recent name="C:\Users\Marku\OneDrive\Desktop\GitHub\Python-Projects\PyProjects\Django_Checkbook" />
+      <recent name="C:\Users\Marku\OneDrive\Desktop\GitHub\Python-Projects\PyProjects\Django_Checkbook\Django_Checkbook" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da3d3e33-9a07-47e9-a6b3-0e293ace2ee2" name="Changes" comment="" />
+      <created>1648879547900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648879547900</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
