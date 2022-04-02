@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'classApp'
+    'classApp'  # Add the created app to the list of apps used in the project
 ]
 
 MIDDLEWARE = [

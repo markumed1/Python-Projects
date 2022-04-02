@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fdd3c4e-0085-4bd8-a576-a2265f523975" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Classes/classApp/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Classes/classApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Classes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Classes/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/classApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

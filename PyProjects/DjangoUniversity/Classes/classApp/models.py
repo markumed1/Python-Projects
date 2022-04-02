@@ -1,3 +1,4 @@
+# import models top of page before creating class
 from django.db import models
 
 TITLE_CHOICES = {
@@ -13,6 +14,7 @@ class DjangoClasses(models.Model):
     instructor_name = models.CharField(max_length=30)
     duration = models.CharField(max_length=10)
 
+    #   is the default model manager and each model needs to have at least ONE model manager
     objects = models.Manager()
 
     def __str__(self):
