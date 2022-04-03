@@ -6,44 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5fdd3c4e-0085-4bd8-a576-a2265f523975" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/classApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/activate/Scripts/pip-3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/activate/Scripts/pip-3.10.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/activate/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/activate/Scripts/pip.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/activate/Scripts/pip3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/activate/Scripts/pip3.10.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/activate/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/activate/Scripts/pip3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/activate/Scripts/wheel-3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/activate/Scripts/wheel-3.10.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/activate/Scripts/wheel.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/activate/Scripts/wheel.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/activate/Scripts/wheel3.10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/activate/Scripts/wheel3.10.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/activate/Scripts/wheel3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/activate/Scripts/wheel3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/.idea/Django_Checkbook.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/static/CSS/CheckbookApp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/static/images/CheckCalligraphyPen.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/templates/checkbook/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/templates/checkbook/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/templates/checkbook/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Checkbook/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Django_Checkbook/Django_Checkbook/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Django_Checkbook/Django_Checkbook/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Django_Checkbook/Django_Checkbook/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Django_Checkbook/Django_Checkbook/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Django_Checkbook/Django_Checkbook/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Django_Checkbook/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Django_Checkbook/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django_Checkbook/Django_Checkbook/manage.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
