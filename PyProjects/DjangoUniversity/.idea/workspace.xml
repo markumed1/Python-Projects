@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fdd3c4e-0085-4bd8-a576-a2265f523975" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Checkbook/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Checkbook/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Checkbook/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Django_Checkbook/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Django_Checkbook/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Django_Checkbook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Django_Checkbook/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoProject/static/CSS/CheckbookApp.css" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Checkbook/static/CSS/CheckbookApp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoProject/static/images/CheckCalligraphyPen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Checkbook/static/images/CheckCalligraphyPen.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoProject/templates/checkbook/AddTransaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Checkbook/templates/checkbook/AddTransaction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoProject/templates/checkbook/BalanceSheet.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Checkbook/templates/checkbook/BalanceSheet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoProject/templates/checkbook/CreateNewAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Checkbook/templates/checkbook/CreateNewAccount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoProject/templates/checkbook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Checkbook/templates/checkbook/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoProject/templates/checkbook_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoProject/Django_Checkbook/Checkbook/templates/checkbook_base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/classApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/classApp/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
