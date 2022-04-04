@@ -8,7 +8,7 @@
 					<br>
 					<!-- Use value to add the Django populated details-->
 					<label>Account Holder:</label>
-					<input id="accountholder" type="text" name="accountHolder" value="{{ account }}" readonly>
+					<input id="accountHolder" type="text" name="accountHolder" value="{{ account }}" readonly>
 					<br><br>
 					<label>Current Balance:</label>
 					<input id="balance" type="text" name="currentBalance" value="{{ balance }}" readonly>
@@ -28,17 +28,25 @@
 					<th>Amount</th>
 					<th>Balance</th>
 				</tr>
-
-				{% for key, total in tabl_contents.items %}
 				<tr>
-					<td class="center">{{ key.date }}</td>
-					<td class="center">{{ key.type }}</td>
-					<td class="left">{{ key.description }}</td>
-					<td class="right">{{ key.amount }}</td>
-					<td class="right">{{ total }}</td>
+					<td class="center">8/12/19</td>
+					<td class="center">Debit</td>
+					<td class="left">Target</td>
+					<td class="right">$123.45</td>
+					<td class="right">$10,654.78</td>
+				</tr>
+
+				{% for key, total in table_contents.items %}
+				<tr>
+						<td class="center">{{ key.date }}</td>
+						<td class="center">{{ key.type }}</td>
+						<td class="left">{{ key.description }}</td>
+						<td class="right">{{ key.amount }}</td>
+						<td class="right">{{ total }}</td>
 				</tr>
 				{% endfor %}
 
+			</table>
 
+			<br><br>
 {% endblock %}
-
