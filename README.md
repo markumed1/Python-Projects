@@ -5,7 +5,7 @@
 These are basic projects written in Python. They use various modules such as tkinter or sqlite3.
 
 ### Projects:
--[Phonebook](https://github.com/markumed1/Python-Projects/tree/main/Project%20Phonebooka)<br>
+-[Phonebook](https://github.com/markumed1/Python-Projects/tree/main/Project%20Phonebook)<br>
 -[Check Files GUI](https://github.com/markumed1/Python-Projects/blob/main/Course%20Assignments/fileTransferP2and3.py)
 
 ### Phonebook
