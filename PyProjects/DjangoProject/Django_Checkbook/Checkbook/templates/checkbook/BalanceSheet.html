@@ -1,7 +1,7 @@
 {% extends 'checkbook_base.html' %}
 {% block title %}Balance Sheet{% endblock %}
 {% block content %}
-{% for key, total in tabl_contents.items %}
+
 
 			<div id="all-transactions-form">
 				<form> 
@@ -28,6 +28,8 @@
 					<th>Amount</th>
 					<th>Balance</th>
 				</tr>
+
+				{% for key, total in tabl_contents.items %}
 				<tr>
 					<td class="center">{{ key.date }}</td>
 					<td class="center">{{ key.type }}</td>

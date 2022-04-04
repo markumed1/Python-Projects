@@ -7,4 +7,3 @@ urlpatterns = [
     path('<int:pk>/balance/', views.balance, name='balance'),
     path('transaction/', views.transaction, name='transaction')
 ]
-

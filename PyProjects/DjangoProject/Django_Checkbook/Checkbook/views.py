@@ -26,7 +26,7 @@ def balance(request, pk):
     account = get_object_or_404(Account, pk=pk)
     transactions = Transaction.Transactions.filter(account=pk)
     current_total = account.initial_deposit
-    table_contents = { }
+    table_contents = {}
     for t in transactions:
         if t.type == 'Deposit':
             current_total += t.amount
